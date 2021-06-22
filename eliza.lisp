@@ -5,11 +5,7 @@
 ;;;; File eliza.lisp: Advanced version of Eliza.
 ;;; Has more rules, and accepts input without parens.
 
-(provide :eliza)
-
-(eval-when (:compile-toplevel :load-toplevel :execute)
-  (require :eliza1)
-  )
+(in-package :eliza)
 
 ;;; ==============================
 

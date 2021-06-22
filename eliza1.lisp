@@ -8,11 +8,7 @@
 
 ;; New version of pat-match with segment variables
 
-(provide :eliza1)
-
-(eval-when (:compile-toplevel :load-toplevel :execute)
-  (require :elizaaux)
-  )
+(in-package :eliza)
 
 (defun variable-p (x)
   "Is x a variable (a symbol beginning with `?')?"

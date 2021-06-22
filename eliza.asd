@@ -15,7 +15,9 @@
   :license "PAIP"
   :description "Eliza program from PAIP, but modernized by Seiji"
   :long-description "Modified version of Eliza in Common Lisp from 'Paradigms of Artificiall Intelligence Programming' by Peter Norvig. This is modernized according to modern lisp by Seiji Koide."
+  :serial t
   :components
-  ((:file "elizaaux")
+  ((:file "package")
+   (:file "elizaaux")
    (:file "eliza1")
    (:file "eliza")))

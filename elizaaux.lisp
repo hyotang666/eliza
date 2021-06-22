@@ -3,9 +3,8 @@
 ;;; Copyright (c) 1991 Peter Norvig
 
 ;;; Auxiliary functions used by eliza1.lisp and eliza.lisp.
-;;; Load this file before running any other programs.
 
-(provide :elizaaux)
+(in-package :eliza)
 
 (defun flatten (the-list)
   "Append together elements (or lists) in the list."
